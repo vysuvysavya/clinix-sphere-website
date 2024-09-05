@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px; /* Adjust padding */
+    background-color: #dbe2ea; /* Updated header background */
+    position: relative; /* For search icon positioning */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 90px; /* Adjusted smaller logo size */
+    margin-right: 10px;
+    margin-left: 2px;
+  }
+  
+  .tagline {
+    font-size: 14px;
+    color: #6c757d;
+    margin-left: 10px;
+    font-style: italic; /* Italic style */
+  }
+  
+  .nav {
+    margin-left: 260px;
+    display: flex;
+    justify-content: center; /* Center nav links */
+    flex: 1; /* Take remaining space */
+  }
+  
+  .nav a {
+    margin: 0px 40px 0px 40px;
+    color: #344f8e;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px; /* Padding for hover effect */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+  }
+  
+  .nav a:hover {
+    background-color: #3a579a; /* Hover background */
+    color: #fff; /* Hover text color */
+  }
+  
+  .search {
+    display: flex;
+    margin-top: 60px; /* Flex for positioning */
+    align-items: center; /* Center align the icon and input */
+    background-color: white; /* Background for search */
+    padding: 5px 10px; /* Padding around the search bar */
+    border-radius: 4px; /* Rounded corners for the search bar */
+    border: 1px solid #ccc; /* Border color */
+  }
+  
+  .search input {
+    border: none; /* Remove default input border */
+    outline: none; /* Remove input outline */
+    padding: 5px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    margin-left: 5px; /* Space between icon and input */
+  }
+  
+  .search-icon {
+    color: #6c757d; /* Icon color */
+    font-size: 18px; /* Icon size */
+  }
+  
