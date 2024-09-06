@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 5px; /* Adjust padding */
-    background-color: #dbe2ea; /* Updated header background */
-    position: relative; /* For search icon positioning */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 2px 5px; 
+    background-color: #dbe2ea;
+    position: relative; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .logo {
@@ -14,7 +14,7 @@
   }
   
   .logo img {
-    height: 90px; /* Adjusted smaller logo size */
+    height: 90px;
     margin-right: 10px;
     margin-left: 2px;
   }
@@ -23,14 +23,14 @@
     font-size: 14px;
     color: #6c757d;
     margin-left: 10px;
-    font-style: italic; /* Italic style */
+    font-style: italic; 
   }
   
   .nav {
     margin-left: 260px;
     display: flex;
-    justify-content: center; /* Center nav links */
-    flex: 1; /* Take remaining space */
+    justify-content: center; 
+    flex: 1;
   }
   
   .nav a {
@@ -38,32 +38,32 @@
     color: #344f8e;
     text-decoration: none;
     font-size: 18px;
-    padding: 8px 12px; /* Padding for hover effect */
-    border-radius: 4px; /* Rounded corners */
-    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
-  }
+    padding: 8px 12px;
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s;
+    }
   
   .nav a:hover {
-    background-color: #3a579a; /* Hover background */
-    color: #fff; /* Hover text color */
+    background-color: #3a579a; 
+    color: #fff; 
   }
   
   .search {
     display: flex;
-    margin-top: 60px; /* Flex for positioning */
-    align-items: center; /* Center align the icon and input */
-    background-color: white; /* Background for search */
-    padding: 5px 10px; /* Padding around the search bar */
-    border-radius: 4px; /* Rounded corners for the search bar */
-    border: 1px solid #ccc; /* Border color */
+    margin-top: 60px; 
+    align-items: center; 
+    background-color: white; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
   }
   
   .search input {
-    border: none; /* Remove default input border */
-    outline: none; /* Remove input outline */
-    padding: 5px; /* Adjust padding */
-    font-size: 16px; /* Adjust font size */
-    margin-left: 5px; /* Space between icon and input */
+    border: none;
+    outline: none;
+    padding: 5px; 
+    font-size: 16px; 
+    margin-left: 5px; 
   }
   
   .search-icon {
