@@ -2,8 +2,8 @@
     text-align: center;
     padding: 60px 20px;
     background-color: #eef4ff;
-    position: relative; /* For any pseudo-elements */
-    overflow: hidden; /* To prevent overflow on animations */
+    position: relative;
+    overflow: hidden;
   }
   
   .subheading {
@@ -11,12 +11,12 @@
     color: #6c757d;
     font-style: italic;
     margin-bottom: 10px;
-    transition: all 0.4s ease-in-out; /* Smooth transition */
+    transition: all 0.4s ease-in-out; 
   }
   
   .subheading:hover {
     color: #3a579a;
-    transform: scale(1.05); /* Slight zoom effect */
+    transform: scale(1.05); 
   }
   
   .main-heading {
@@ -24,12 +24,12 @@
     color: #3a579a;
     margin: 20px 0;
     line-height: 1.4;
-    transition: all 0.4s ease-in-out; /* Smooth transition */
+    transition: all 0.4s ease-in-out; 
   }
   
   .main-heading:hover {
     color: #2c4887;
-    transform: scale(1.08); /* Slight zoom effect */
+    transform: scale(1.08); 
     background: linear-gradient(90deg, #3a579a, #2c4887);
     -webkit-background-clip: text;
     color: transparent;
@@ -52,9 +52,9 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    position: relative; /* For pseudo-elements */
-    overflow: hidden; /* To clip pseudo-elements */
-    transition: background-color 0.3s, transform 0.2s; /* Smooth hover and click effects */
+    position: relative; 
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.2s; 
   }
   
   .get-started::before, .request-demo::before {
@@ -67,11 +67,11 @@
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.2), transparent);
     transition: transform 0.4s ease;
     transform: translateX(-100%);
-    z-index: 0; /* Ensure it's behind the button text */
+    z-index: 0; 
   }
   
   .get-started:hover::before, .request-demo:hover::before {
-    transform: translateX(100%); /* Slide the gradient from left to right */
+    transform: translateX(100%); 
   }
   
   .get-started:hover, .request-demo:hover {
@@ -89,7 +89,7 @@
   
   .get-started span, .request-demo span {
     position: relative;
-    z-index: 1; /* Bring text above pseudo-element */
+    z-index: 1; 
   }
   
   .or {
@@ -103,16 +103,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    background-color: #eef4ff; /* Default background color */
+    background-color: #eef4ff; 
     padding: 15px 20px;
     border-radius: 8px;
-    transition: background-color 0.3s, transform 0.3s; /* Smooth hover and click effects */
+    transition: background-color 0.3s, transform 0.3s;
   }
   
   .open-hours:hover {
-    background-color: #d3e3f9; /* Slightly darker shade */
-    transform: translateY(-5px); /* Lift effect */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    background-color: #d3e3f9; 
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
   }
   
   .clock-icon {
@@ -120,11 +120,11 @@
     color: #3a579a;
     margin-right: 40px;
     margin-top: 10px;
-    transition: transform 0.3s ease; /* Smooth transition */
+    transition: transform 0.3s ease; 
   }
   
   .clock-icon:hover {
-    transform: rotate(20deg); /* Rotate effect on hover */
+    transform: rotate(20deg); 
   }
   
   .hours {
